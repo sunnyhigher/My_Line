@@ -15,6 +15,8 @@
 		337452301CC0B650002F5F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3374522E1CC0B650002F5F14 /* LaunchScreen.storyboard */; };
 		3374523B1CC0B650002F5F14 /* My_LineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3374523A1CC0B650002F5F14 /* My_LineTests.m */; };
 		337452461CC0B650002F5F14 /* My_LineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337452451CC0B650002F5F14 /* My_LineUITests.m */; };
+		337452611CC0BFA5002F5F14 /* XXLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 337452601CC0BFA5002F5F14 /* XXLineChartView.m */; };
+		337452641CC0BFB2002F5F14 /* XXPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 337452631CC0BFB2002F5F14 /* XXPlot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		337452411CC0B650002F5F14 /* My_LineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = My_LineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		337452451CC0B650002F5F14 /* My_LineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_LineUITests.m; sourceTree = "<group>"; };
 		337452471CC0B650002F5F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3374525F1CC0BFA5002F5F14 /* XXLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXLineChartView.h; sourceTree = "<group>"; };
+		337452601CC0BFA5002F5F14 /* XXLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXLineChartView.m; sourceTree = "<group>"; };
+		337452621CC0BFB2002F5F14 /* XXPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPlot.h; sourceTree = "<group>"; };
+		337452631CC0BFB2002F5F14 /* XXPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPlot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				337452241CC0B650002F5F14 /* AppDelegate.m */,
 				337452261CC0B650002F5F14 /* ViewController.h */,
 				337452271CC0B650002F5F14 /* ViewController.m */,
+				3374525F1CC0BFA5002F5F14 /* XXLineChartView.h */,
+				337452601CC0BFA5002F5F14 /* XXLineChartView.m */,
+				337452621CC0BFB2002F5F14 /* XXPlot.h */,
+				337452631CC0BFB2002F5F14 /* XXPlot.m */,
 				337452291CC0B650002F5F14 /* Main.storyboard */,
 				3374522C1CC0B650002F5F14 /* Assets.xcassets */,
 				3374522E1CC0B650002F5F14 /* LaunchScreen.storyboard */,
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337452641CC0BFB2002F5F14 /* XXPlot.m in Sources */,
+				337452611CC0BFA5002F5F14 /* XXLineChartView.m in Sources */,
 				337452281CC0B650002F5F14 /* ViewController.m in Sources */,
 				337452251CC0B650002F5F14 /* AppDelegate.m in Sources */,
 				337452221CC0B650002F5F14 /* main.m in Sources */,
@@ -498,6 +510,7 @@
 				3374524C1CC0B650002F5F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3374524D1CC0B650002F5F14 /* Build configuration list for PBXNativeTarget "My_LineTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				3374524F1CC0B650002F5F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337452501CC0B650002F5F14 /* Build configuration list for PBXNativeTarget "My_LineUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				337452521CC0B650002F5F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
